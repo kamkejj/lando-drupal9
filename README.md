@@ -7,6 +7,7 @@ Using Lando and Drupal 9 with xdebug.
 
 ## Composer
 Installing Drupal 9 with composer.
+
     composer create-project drupal/recommended-project project-name
 
 ## Troubleshooting Tips
