@@ -17,4 +17,5 @@ Installing Drupal 9 with composer.
 * Xdebug not working with PHPStorm?
 
     In .lando.yml set xdebug to false, rebuild lando, lando rebuild, then set xdebug back to true and rebuild lando again
+    
     Set PHPStorm to break at the first line when debugging
