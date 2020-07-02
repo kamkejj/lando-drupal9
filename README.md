@@ -11,7 +11,7 @@ Installing Drupal 9 with composer.
     composer create-project drupal/recommended-project project-name
 
 ## PHPStorm And Xdebug
-* Since the port for http can change in Lando, such as when rebuilding Lando using https for Xdebug with PHPStorm makes sense
+* Since the port for http can change in Lando, such as when rebuilding Lando, using https for Xdebug with PHPStorm makes sense
 
 ## Troubleshooting Tips
 * Xdebug not working with PHPStorm
