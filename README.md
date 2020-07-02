@@ -6,8 +6,8 @@ Using Lando and Drupal 9 with xdebug.
 * Drupal: 9
 
 ## Composer
-
-    composer create-project drupal/recommended-project moduledev
+Installing Drupal 9 with composer.
+    composer create-project drupal/recommended-project project-name
 
 ## Troubleshooting Tips
 * Xdebug not working with PHPStorm
