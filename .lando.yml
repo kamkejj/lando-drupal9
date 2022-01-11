@@ -2,9 +2,8 @@ name: drupal-9
 recipe: drupal9
 config:
   webroot: web
-  php: '7.3'
+  php: '7.4'
   via: apache
-  database: mysql
   xdebug: true
 services:
   appserver:
@@ -12,7 +11,14 @@ services:
       - composer install
     type: php
     config:
-      php: config/php.ini
+      php: lando.php.ini
     overrides:
       environment:
         DRUSH_OPTIONS_URI: "https://drupal-9.lndo.site"
+  memcache:
+    type: memcached
+    portforward: false
+    mem: 128
+  db:
+    type: mariadb
+    portforward: true
