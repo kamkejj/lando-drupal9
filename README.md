@@ -9,6 +9,11 @@ Using Lando and Drupal 9 with Xdebug.
 Installing Drupal 9 with composer.
 
     composer create-project drupal/recommended-project project-name
+    
+## Drush
+Lando no longer installs Drush globally and must include via composer.
+
+    lando composer require drush/drush
 
 ## PHPStorm And Xdebug
 * Since the port for http can change in Lando, such as when rebuilding Lando, using https for Xdebug with PHPStorm makes sense
